@@ -340,7 +340,6 @@ void MainWindow::make_output(){
     ui->textEdit->setText("Making...");
 
     ui->textEdit->clear();
-    qDebug()<<"make_output";
     // ui->textEdit->append(make->readAllStandardOutput());
      tmp=make->readAllStandardOutput();
    //  ui->textEdit->append(make->readAllStandardError());
