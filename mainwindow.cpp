@@ -9,10 +9,10 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->comboBox->addItem("Raspberry Pi 3");
     QString dstPath = "/media/roopkumar/Downloads/2.txt";
 
-    if(QFile::exists(config_path))
+    /*if(QFile::exists(config_path))
     QFile::remove(config_path);
     qDebug()<<QDir::currentPath();
-    QFile::copy(QDir::currentPath()+"/buildroot-2019.05.1/minimal_raspberrypi_config/minimal_defconfig",config_path);
+    QFile::copy(QDir::currentPath()+"/buildroot-2019.05.1/minimal_raspberrypi_config/minimal_defconfig",config_path);*/
 
 
     //read_script();
